@@ -86,14 +86,14 @@ body{
 
 #history-container{
     position: absolute;
-    right: 150px;
+    right: 100px;
     top: 100px;
     height: 200px;
     width: 300px;
     text-align: center;
     border-radius: 8px;
-    color: white;
-    background-color: #283840;
+    color: black;
+    background-color: white;
     overflow-y: scroll;
     max-height: 0;
     transition: all 0.5s ease-out;
@@ -160,3 +160,28 @@ body{
 #toggle-history-btn:hover {
     background-color: #45a049;
 }
+
+
+@media only screen and (min-width: 900px) and (max-width: 1195px) {
+    #history-container{
+        right: 30px;
+        top: 100px;
+        width: 200px;
+    }
+  }
+  
+@media only screen and (min-width: 700px) and (max-width: 899px) {
+    #MainContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    #history-container{
+        position:static;
+        width: 290px;
+    }
+  }
+  

@@ -1,0 +1,162 @@
+/* CSS Reseting */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+*::selection{
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color:rgb(161, 182, 189);
+}
+
+/* Designing the container */
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px auto;
+    padding: 30px 10px;
+    width: 300px;
+    background-color:#283840;
+    border-radius: 8px;
+    position: relative;
+}
+
+.btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    border: none;
+    background-color: #283840;
+    box-shadow: inset 0px 0px 5px white;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 10px 0px;
+    font-weight: bolder;
+    transition: all 0.31s;
+}
+
+.btn:hover{
+    box-shadow:  0px 0px 10px white;
+    /* transform: rotate(5deg); */
+}
+
+#equalsto{
+    width: 128px;
+    background-color: white;
+    box-shadow: inset  0px 0px 15px black;
+    color: black;
+}
+
+#ac{
+    background-color: white;
+    box-shadow: inset  0px 0px 15px rgba(0, 0, 0, 0.685);
+    color: black;
+}
+#equalsto:hover , #ac:hover{
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+#input{
+    height: 60px;
+    width: 265px;
+    margin: 10px 0px;
+    border: none;
+    text-align: right;
+    font-size: 2rem;
+    color: white;
+    padding-right: 10px;
+    background-color: #283840;
+    box-shadow: inset 0px 0px 5px white;
+    border-bottom: 3px solid white;
+}
+
+#MainContainer{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+#history-container{
+    position: absolute;
+    right: 150px;
+    top: 100px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    background-color: #283840;
+    overflow-y: scroll;
+    max-height: 0;
+    transition: all 0.5s ease-out;
+}
+
+
+#history-list{
+    text-align: left;
+}
+
+#history-container.active {
+    max-height: 200px; /* Adjust this based on how tall your history should be */
+    padding: 10px 15px; /* Add padding when active */
+    border: solid black 2px;
+}
+
+#toggle-history {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+#toggle-history:hover {
+    background-color: #0056b3;
+}
+
+/* List styling inside the history */
+#history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#history-list li {
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+  /* When history is shown */
+  #history-container.active {
+    max-height: 500px; /* Adjust to the desired height */
+}
+
+/* Simple button styling */
+#toggle-history-btn {
+    text-align: center;
+    height: 40px;
+    width: 265px;
+    margin: 10px 0px;
+    border: none;
+    text-align: center;
+    font-size: 1.3rem;
+    color: black;
+    background-color: whitesmoke;
+    box-shadow: inset 0px 0px 5px black;
+    border-bottom: 3px solid white;
+}
+
+#toggle-history-btn:hover {
+    background-color: #45a049;
+}

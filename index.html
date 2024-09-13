@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monkey-Calculator</title>
+    <link rel="icon" type="image/x-icon" href="./calculator.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="MainContainer">
+
+        <div id="container">
+            <div class="display">
+            <input type="text" name="display" id="input" placeholder="0" readonly>
+        </div>
+        <div id="box">
+            <input type="button" class="btn" value="AC" onclick="deleteAllData()" id="ac">
+            <input type="button" class="btn" value="DE" onclick="deleteLastInput()">
+            <input type="button" class="btn" value="." onclick="appendToChild('.')">
+            <input type="button" class="btn" value="/" onclick="appendToChild('/')">
+        </div>
+        <div id="box">
+            <input type="button" class="btn" value="7" onclick="appendToChild('7')">
+            <input type="button" class="btn" value="8" onclick="appendToChild('8')">
+            <input type="button" class="btn" value="9" onclick="appendToChild('9')">
+            <input type="button" class="btn" value="x" onclick="appendToChild('*')">
+        </div>
+        <div id="box">
+            <input type="button" class="btn" value="4" onclick="appendToChild('4')">
+            <input type="button" class="btn" value="5" onclick="appendToChild('5')">
+            <input type="button" class="btn" value="6" onclick="appendToChild('6')">
+            <input type="button" class="btn" value="-" onclick="appendToChild('-')">
+        </div>
+        <div id="box">
+            <input type="button" class="btn" value="1" onclick="appendToChild('1')">
+            <input type="button" class="btn" value="2" onclick="appendToChild('2')">
+            <input type="button" class="btn" value="3" onclick="appendToChild('3')">
+            <input type="button" class="btn" value="+" onclick="appendToChild('+')">
+        </div>
+        <div id="box">
+            <input type="button" class="btn" value="00" onclick="appendToChild('00')">
+            <input type="button" class="btn" value="0" onclick="appendToChild('0')">
+            <input type="button" class="btn" value="=" onclick="TotalWork()" id="equalsto">
+        </div>
+        
+        <button id="toggle-history-btn" onclick="toggleHistory()">Show History</button>
+        
+    </div>
+    <div id="history-container">
+        <h3 style="font-size: 20px; font-family: monospace;">History</h3>
+        <ul id="history-list"></ul>
+    </div>
+</div>
+    
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

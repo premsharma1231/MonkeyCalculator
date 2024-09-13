@@ -170,7 +170,7 @@ body{
     }
   }
   
-@media only screen and (min-width: 700px) and (max-width: 899px) {
+@media only screen and (min-width: 200px) and (max-width: 899px) {
     #MainContainer{
         display: flex;
         flex-direction: column;

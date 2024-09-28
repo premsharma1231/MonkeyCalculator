@@ -1,2 +1,39 @@
-Hi everyone, my name is Purvish, and today I'm sharing a very simple calculator that I made with HTML, CSS, and JavaScript. You can use the mouse to calculate, or you can use the keyboard. It also has a history section that you can choose to see or hide, and it saves the data you've calculated. You can also view the design because I've included a screenshot of the project that shows you how the history section is displayed and hidden so you can see it and provide feedback. This is a pretty rudimentary calculator, but I intend to commit to a really nice and advanced one, so please stay tuned and thank you.
-Our MonkeyCalculator is now available at https://premsharma1231.github.io/MonkeyCalculator/. Because it is a responsive website, you may use it on both desktop and mobile devices, so please visit, utilize, and enjoy.
+# MonkeyCalculator
+
+Welcome to **MonkeyCalculator**, a simple yet functional calculator created with **HTML**, **CSS**, and **JavaScript**! This calculator allows users to calculate using both **mouse** and **keyboard** inputs. It also includes a history section where you can review your previous calculations, and this data is saved for later use.
+
+## Features
+
+- **Mouse and Keyboard Input:** Perform calculations either by clicking buttons or using your keyboard.
+- **History Section:** Keep track of your calculations. You can choose to display or hide the history as needed.
+- **Data Persistence:** The history of your calculations is saved for later review.
+- **Responsive Design:** Works on both desktop and mobile devices.
+
+## Screenshot
+
+Here’s a quick look at how the history section is displayed and hidden.
+
+![MonkeyCalculator Screenshot](link_to_screenshot_image)
+
+## How to Use
+
+1. Visit the live version at [MonkeyCalculator](https://premsharma1231.github.io/MonkeyCalculator/).
+2. Perform calculations using either your mouse or keyboard.
+3. View or hide your calculation history by clicking the “History” button.
+
+## Future Plans
+
+This is a rudimentary version, but I plan to work on more advanced features. Stay tuned for updates as the calculator evolves into a more powerful tool!
+
+## Feedback
+
+Your feedback is invaluable to me! Please visit, use, and enjoy the MonkeyCalculator. Feel free to share your suggestions or report any issues.
+
+---
+
+Thank you for checking out MonkeyCalculator! I’m constantly working to improve it, so be sure to **star** the repo and watch for updates.
+
+---
+  
+Made with ❤️ by [Purvish Sharma](https://www.linkedin.com/in/sharma-purvish-591120248/)
+

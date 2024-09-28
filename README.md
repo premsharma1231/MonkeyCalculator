@@ -13,8 +13,8 @@ Welcome to **MonkeyCalculator**, a simple yet functional calculator created with
 
 Here’s a quick look at how the history section is displayed and hidden.
 
-![MonkeyCalculator Screenshot](link_to_screenshot_image)
-
+![MonkeyCalculator Screenshot](https://raw.githubusercontent.com/premsharma1231/MonkeyCalculator/refs/heads/main/Screenshot%20(126).png)
+![MonkeyCalculator Screenshot](https://raw.githubusercontent.com/premsharma1231/MonkeyCalculator/refs/heads/main/Screenshot%20(125).png)
 ## How to Use
 
 1. Visit the live version at [MonkeyCalculator](https://premsharma1231.github.io/MonkeyCalculator/).
